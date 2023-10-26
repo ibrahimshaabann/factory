@@ -40,7 +40,7 @@ The project involves managing a glass manufacturing factory with multiple depart
 - Each product undergoes multiple stages of production.
 - The user responsible for identifying production stages varies based on manager levels.
 - Customers can view the production stages of their owned or purchased products.
-- Products have a virtual, estimated, or approximate price (accessible to employees and manager levels) and an actual selling price (the final price for customers).
+- Products have a estimated, or approximate price (accessible to employees and manager levels) and an actual selling price (the final price for customers).
 
 ### 2. Categories
 - Customers can review available product categories and products within each category.
@@ -61,6 +61,9 @@ The project involves managing a glass manufacturing factory with multiple depart
    - Most requested category.
    - Top customer roles (e.g., Engineering Office Managers, Dealers) requesting products.
    - Customizable criteria for the analytics.
+
+### 6. Linking  social media platforms to factory website
+- Factory social media platforms are linked to the website.
 
 ## System Design
 
@@ -92,6 +95,9 @@ The project involves managing a glass manufacturing factory with multiple depart
 
 ### Manager Dashboard
 - Administrative dashboard for managing products, users, and generating reports.
+
+### Branch Manager Dashboard
+- Administrative dashboard for managing each branch using location-based data retrieval.
 
 ### Product Management
 - Tools for managing product details, categories, and production stages.
