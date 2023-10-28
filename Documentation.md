@@ -19,19 +19,7 @@ The project involves managing a glass manufacturing factory with multiple depart
 3. **Employee**
    - Employees have varying roles and permissions.
 
-### Customer Roles
-1. **Engineering Office Manager**
-   - Can request glass materials for specific buildings.
-
-2. **Dealer of Glass Material**
-   - Can request a large quantity of glass from the factory.
-
-3. **Normal Customer**
-   - Typically requests a small number of products.
-   - Has access to customer support features, including a chat interface for contacting factory staff or customer service.
-   - Supports redirection to WhatsApp and Messenger chats.
-   - Can submit product requests with customer information (email, phone number, requested product, full name, closest branch).
-   - Payment is not supported online; payment can only be made at the branch.
+### Customer Role
 
 ## System Requirements
 
@@ -64,6 +52,43 @@ The project involves managing a glass manufacturing factory with multiple depart
 
 ### 6. Linking  social media platforms to factory website
 - Factory social media platforms are linked to the website.
+
+### 7. Production line
+ - The factory have a core production line for sales.
+ - The production line have a staging/phase status.
+ -  Employees/Customers with Different Roles Can Access the production Line with consideration of the behaviuor being done on the line
+
+### 8. Customer Classification:
+
+1. **Engineering Office Manager**
+   - Can request glass materials for specific buildings.
+
+2. **Dealer of Glass Material**
+   - Can request a large quantity of glass from the factory.
+
+3. **Normal Customer**
+   - Typically requests a small number of products.
+   - Has access to customer support features, including a chat interface for contacting factory staff or customer service.
+   - Supports redirection to WhatsApp and Messenger chats.
+   - Can submit product requests with customer information (email, phone number, requested product, full name, closest branch).
+   - Payment is not supported online; payment can only be made at the branch.
+
+### 9. Employees Dashboard:
+   - dashboard for employees where they can see the customers request of the products to get in touch with them.
+   - dashboard for sales or customer service to contact with the customers.
+
+### 10. Branch Mangagers Dashboard:
+   - Includes all employees in the branch and their data.
+   - Managing branch details.
+   - Available products in the branch.
+   - Contacting the factory and requesting the order that is not available in the branch.
+   - Viewing the requested order stages on production line and tracking its status e.g. Pending, Done, Shipped.
+   - Analytics like:
+      - Total customers
+      - Top customer type requesting from the branch.
+      - Top and least sales product in my branch.
+      - Total sales
+     
 
 ## System Design
 
